@@ -1,4 +1,5 @@
-import Counter from './Counter.jsx';
+import Counter from './Counter/Counter.jsx';
+import Countdown from './Countdown/Countdown.jsx';
 
 function Content({selectedMenuItem}) {
 
@@ -6,6 +7,14 @@ function Content({selectedMenuItem}) {
         return (
             <div className="fixed inset-0 z-40">
                 <Counter />
+            </div>
+        )
+    }
+
+    if (selectedMenuItem && selectedMenuItem.toLowerCase() === 'countdown') {
+        return (
+            <div className="fixed inset-0 z-40">
+                <Countdown />
             </div>
         )
     }

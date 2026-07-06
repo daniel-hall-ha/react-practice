@@ -1,6 +1,6 @@
-import Banner from './Banner'
+import Banner from './Banner/Banner.jsx'
 import { useState } from 'react'
-import Content from './Content';
+import Content from './Content.jsx';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,5 +1,5 @@
 function Menu({ setIsMenuOpen, isMenuOpen, setSelectedMenuItem }) {
-    const menu_list = ['Counter']
+    const menu_list = ['Counter','Countdown']
     return (
         <div className="shadow-gray-20 shadow-xs w-screen">
             <ul className="list-none flex flex-row flex-wrap ">
