@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --font-avenir: "Avenir",sans-serif;
+}
+
+#root {
+    height: 100vh;
+}
