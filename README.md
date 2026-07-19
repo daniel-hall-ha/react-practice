@@ -1,16 +1,53 @@
-# React + Vite
+# React Practice Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of beginner-friendly React projects created to learn and practice core React concepts, including state management, hooks, event handling, conditional rendering, forms, and DOM updates.
 
-Currently, two official plugins are available:
+## Projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Banner** – Display and manage banner visibility.
+* **Countdown** – A countdown timer built with React.
+* **Counter** – Increment and decrement counter application.
+* **EmployeeDetails** – Display employee information using React components.
+* **FeedbackForm** – Collect and validate user feedback.
+* **LikeDislike** – Like and dislike button with dynamic state updates.
+* **ToDoList** – Create, manage, and remove tasks.
+* **ToggleMessage** – Toggle content visibility.
+* **YogaBenefits** – Display information using reusable React components.
 
-## React Compiler
+## Concepts Covered
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React Components
+* Props
+* State (`useState`)
+* Effects (`useEffect`)
+* Event Handling
+* Conditional Rendering
+* Lists and Keys
+* Forms and Controlled Components
+* DOM Updates
+* Asynchronous State Updates
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript (ES6+)
+* CSS
+
+## Getting Started
+
+1. Clone this repository.
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+## Purpose
+
+This repository contains small React projects built to strengthen fundamental React development skills through hands-on practice.
