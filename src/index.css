@@ -7,3 +7,11 @@
 #root {
     height: 100vh;
 }
+
+button {
+    cursor: pointer;
+}
+
+input, textarea:focus {
+    outline: none;
+}

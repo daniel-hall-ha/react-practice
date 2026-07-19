@@ -3,7 +3,7 @@ import Menu from './Menu.jsx'
 function Banner({ setIsMenuOpen, isMenuOpen, setSelectedMenuItem }) {
 
     return(
-        <div className="z-50 sticky">
+        <div className="z-10 sticky">
             <div className="p-4 bg-blue-500 text-white flex flex-row justify-between items-center w-screen">
               <div>
                 <h1 className="text-base font-bold">Hello World</h1>
